@@ -1,0 +1,100 @@
+/* APARECE IMAGEN*/
+
+@media screen and (max-width:399px) {
+    .invisible {
+        display: inline-block;
+    }
+    .hidden-title {
+        display: block;
+        text-align: center;
+    }
+    .foto,
+    .invisible {
+        width: 100px;
+        height: 100px;
+    }
+    .marco {
+        padding: 5%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .texto,
+    .words {
+        background-color: silver;
+        padding: 10px;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .picture,
+    .words {
+        display: block;
+    }
+    .photo {
+        width: 100%;
+    }
+    .segunda {
+        padding: 5%;
+        display: none;
+    }
+}
+
+
+/* DESAPARECE IMAGEN*/
+
+@media screen and (min-width: 400px) {
+    .invisible,
+    .hidden-title {
+        display: none;
+    }
+    .imagen,
+    .texto {
+        display: inline-block;
+    }
+    .invisible {
+        display: none;
+    }
+    .texto {
+        width: 45%;
+        height: 40%;
+        padding: 10px;
+    }
+    .segunda {
+        padding: 5%;
+        background-color: white;
+        display: block;
+    }
+    .photo {
+        width: 100%;
+    }
+    .picture,
+    .words {
+        display: inline-block;
+    }
+    .picture {
+        width: 45%;
+    }
+    .words {
+        width: 35%;
+        height: 40%;
+        padding: 2%;
+    }
+    .words,
+    .texto {
+        vertical-align: top;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .tercera {
+        background-color: white;
+    }
+    .imagen {
+        width: 45%;
+    }
+    .foto {
+        width: 100%;
+    }
+}
